@@ -1,0 +1,28 @@
+{
+    "checksum": "a3b6b547d27efbc72c3cace2c8ad0861",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/ign_megumin_dark.png",
+    "alpha": "100",
+    "special": {
+        "background": "#12161f",
+        "foreground": "#c3c4c7",
+        "cursor": "#c3c4c7"
+    },
+    "colors": {
+        "color0": "#12161f",
+        "color1": "#6A6368",
+        "color2": "#9E5F64",
+        "color3": "#C56D6C",
+        "color4": "#B88D76",
+        "color5": "#7D7D82",
+        "color6": "#A29D9B",
+        "color7": "#c3c4c7",
+        "color8": "#5e6572",
+        "color9": "#6A6368",
+        "color10": "#9E5F64",
+        "color11": "#C56D6C",
+        "color12": "#B88D76",
+        "color13": "#7D7D82",
+        "color14": "#A29D9B",
+        "color15": "#c3c4c7"
+    }
+}

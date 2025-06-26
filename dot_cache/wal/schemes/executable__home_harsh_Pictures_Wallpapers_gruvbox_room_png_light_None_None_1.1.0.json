@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/gruvbox_room.png",
+    "alpha": "100",
+    "special": {
+        "background": "#faf9f4",
+        "foreground": "#1C1F20",
+        "cursor": "#1C1F20"
+    },
+    "colors": {
+        "color0": "#faf9f4",
+        "color1": "#676D64",
+        "color2": "#86786C",
+        "color3": "#63827D",
+        "color4": "#958977",
+        "color5": "#3C8186",
+        "color6": "#568D8B",
+        "color7": "#1C1F20",
+        "color8": "#87816d",
+        "color9": "#676D64",
+        "color10": "#86786C",
+        "color11": "#63827D",
+        "color12": "#958977",
+        "color13": "#3C8186",
+        "color14": "#568D8B",
+        "color15": "#1C1F20"
+    }
+}

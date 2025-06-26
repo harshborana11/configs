@@ -1,0 +1,21 @@
+set $wallpaper /home/harsh/Pictures/Wallpapers/walls/gruvbox/ThingiesCafe.jpg
+
+set $background #101212
+set $foreground #c3c3c3
+
+set $color0 #101212
+set $color1 #6E6357
+set $color2 #8D7660
+set $color3 #CB7B4E
+set $color4 #7C8366
+set $color5 #A69369
+set $color6 #CAAC6E
+set $color7 #c3c3c3
+set $color8 #596d6d
+set $color9 #6E6357
+set $color10 #8D7660
+set $color11 #CB7B4E
+set $color12 #7C8366
+set $color13 #A69369
+set $color14 #CAAC6E
+set $color15 #c3c3c3

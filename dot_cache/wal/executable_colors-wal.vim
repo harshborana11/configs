@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/harsh/Pictures/Wallpapers/walls/gruvbox/ThingiesCafe.jpg"
+let background = "#101212"
+let foreground = "#c3c3c3"
+let cursor     = "#c3c3c3"
+
+" Colors
+let color0  = "#101212"
+let color1  = "#6E6357"
+let color2  = "#8D7660"
+let color3  = "#CB7B4E"
+let color4  = "#7C8366"
+let color5  = "#A69369"
+let color6  = "#CAAC6E"
+let color7  = "#c3c3c3"
+let color8  = "#596d6d"
+let color9  = "#6E6357"
+let color10 = "#8D7660"
+let color11 = "#CB7B4E"
+let color12 = "#7C8366"
+let color13 = "#A69369"
+let color14 = "#CAAC6E"
+let color15 = "#c3c3c3"

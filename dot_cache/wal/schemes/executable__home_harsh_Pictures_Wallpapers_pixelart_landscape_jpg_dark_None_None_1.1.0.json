@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/pixelart_landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1a12",
+        "foreground": "#e1d7d2",
+        "cursor": "#e1d7d2"
+    },
+    "colors": {
+        "color0": "#1c1a12",
+        "color1": "#7D8272",
+        "color2": "#908872",
+        "color3": "#C0936D",
+        "color4": "#A0A89B",
+        "color5": "#C7BDB7",
+        "color6": "#C3C3BE",
+        "color7": "#e1d7d2",
+        "color8": "#9d9693",
+        "color9": "#7D8272",
+        "color10": "#908872",
+        "color11": "#C0936D",
+        "color12": "#A0A89B",
+        "color13": "#C7BDB7",
+        "color14": "#C3C3BE",
+        "color15": "#e1d7d2"
+    }
+}
