@@ -11,68 +11,68 @@
     /* font-style: italic; */
 
     /* *.background */
-    --background-primary: #101212;
-    --background-secondary: #101212;
-    --background-tertiary: #101212;
+    --background-primary: #0f0f10;
+    --background-secondary: #0f0f10;
+    --background-tertiary: #0f0f10;
 
-    --background-primary-alt: #101212;
-    --background-secondary-alt: #101212;
-    --background-tertiary-alt: #101212;
+    --background-primary-alt: #0f0f10;
+    --background-secondary-alt: #0f0f10;
+    --background-tertiary-alt: #0f0f10;
 
-    --channeltextarea-background: #101212;
-    --custom-channel-members-bg: #101212;
+    --channeltextarea-background: #0f0f10;
+    --custom-channel-members-bg: #0f0f10;
 
-    --profile-gradient-primary-color: #101212;
-    --profile-gradient-secondary-color: #101212;
+    --profile-gradient-primary-color: #0f0f10;
+    --profile-gradient-secondary-color: #0f0f10;
 
-    --__header-bar-background: #101212 !important;
+    --__header-bar-background: #0f0f10 !important;
 
-    --scrollbar-auto-track: #101212;
-    --scrollbar-thin-track: #101212;
+    --scrollbar-auto-track: #0f0f10;
+    --scrollbar-thin-track: #0f0f10;
 
     /* slightly darker background - useful for separating */
-    --input-background: color-mix(in srgb, #101212, black 20%);
-    --autocomplete-bg: color-mix(in srgb, #101212, black 20%);
-    --background-nested-floating: color-mix(in srgb, #101212, black 20%);
-    --background-floating: color-mix(in srgb, #101212, black 20%);
+    --input-background: color-mix(in srgb, #0f0f10, black 20%);
+    --autocomplete-bg: color-mix(in srgb, #0f0f10, black 20%);
+    --background-nested-floating: color-mix(in srgb, #0f0f10, black 20%);
+    --background-floating: color-mix(in srgb, #0f0f10, black 20%);
 
     /* primary.* */
-    --primary-630: #101212;
+    --primary-630: #0f0f10;
 
     /* *.color2 - secondary elements */
-    --scrollbar-auto-thumb: #8D7660;
-    --scrollbar-thin-thumb: #8D7660;
-    --interactive-muted: #8D7660;
-    --text-muted: #8D7660;
-    --background-modifier-hover: color-mix(in srgb, #8D7660, black 40%);
-    --background-modifier-active: color-mix(in srgb, #8D7660, black 20%);
-    --background-modifier-accent: #8D7660;
-    --background-accent: #8D7660;
+    --scrollbar-auto-thumb: #868B7A;
+    --scrollbar-thin-thumb: #868B7A;
+    --interactive-muted: #868B7A;
+    --text-muted: #868B7A;
+    --background-modifier-hover: color-mix(in srgb, #868B7A, black 40%);
+    --background-modifier-active: color-mix(in srgb, #868B7A, black 20%);
+    --background-modifier-accent: #868B7A;
+    --background-accent: #868B7A;
 
     /* *.color3 */
-    --red-400: #CB7B4E;
-    --background-modifier-selected: #CB7B4E;
+    --red-400: #759C92;
+    --background-modifier-selected: #759C92;
 
     /* *.color4 - main theme color: flashy, important elements */
-    --status-danger: #7C8366;
-    --button-outline-danger-border: #7C8366;
-    --button-outline-danger-text: #7C8366;
-    --button-danger-background: #7C8366;
+    --status-danger: #7DAEA3;
+    --button-outline-danger-border: #7DAEA3;
+    --button-outline-danger-text: #7DAEA3;
+    --button-danger-background: #7DAEA3;
 
-    --yellow-300: #7C8366;
+    --yellow-300: #7DAEA3;
 
     /* *.color5 - light theme color */
-    --header-primary: #A69369;
-    --brand-experiment: #A69369;
-    --brand-experiment-360: #A69369;
-    --brand-experiment-500: #A69369;
-    --profile-gradient-button-color: #A69369;
+    --header-primary: #A3AA92;
+    --brand-experiment: #A3AA92;
+    --brand-experiment-360: #A3AA92;
+    --brand-experiment-500: #A3AA92;
+    --profile-gradient-button-color: #A3AA92;
 
-    --green-360: #A69369;
+    --green-360: #A3AA92;
 
     /* *.color6 - lighter theme color */
-    --channels-default: #CAAC6E;
-    --channel-icon: #CAAC6E;
+    --channels-default: #81B5AA;
+    --channel-icon: #81B5AA;
 
     /* *.color7 - very light, text and foreground */
     --text-normal: #c3c3c3;
@@ -81,13 +81,13 @@
 
 /* status indicators */
 rect[fill="#f23f43"] {
-    fill: #CB7B4E !important;
+    fill: #759C92 !important;
 }
 
 rect[fill="#f0b232"] {
-    fill: #7C8366 !important;
+    fill: #7DAEA3 !important;
 }
 
 rect[fill="#23a55a"] {
-    fill: #A69369 !important;
+    fill: #A3AA92 !important;
 }

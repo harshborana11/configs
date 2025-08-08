@@ -12,7 +12,11 @@ return {
 			},
 		},
 	},
-
+	{
+		"vyfor/cord.nvim",
+		build = ":Cord update",
+		-- opts = {}
+	},
 	{
 		"echasnovski/mini.hipatterns",
 		event = "BufReadPre",

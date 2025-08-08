@@ -64,11 +64,12 @@ return {
 		"snacks.nvim",
 		opts = {
 			scroll = { enabled = false },
+			shell = { "/bin/zsh", "-l" },
 		},
-		keys = {},
+		keys = {
+			{ "<C-/>", false },
+		},
 	},
-
-	-- buffer line
 	{
 		"akinsho/bufferline.nvim",
 		event = "VeryLazy",
@@ -158,9 +159,9 @@ return {
 	{
 		"folke/snacks.nvim",
 		opts = {
-dashboard = {
-  preset = {
-    header = [[
+			dashboard = {
+				preset = {
+					header = [[
 
                                                               o
                                                             o%
@@ -188,10 +189,8 @@ dashboard = {
 ...................................................................
 .....................................................................
     ]],
-  },
-}
-
-
+				},
+			},
 		},
 	},
 }
