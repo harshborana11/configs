@@ -31,14 +31,24 @@ function git_develop_branch() {
   return 1
 }
 
-# Check if main exists and use instead of master
+# Get the default branch name from common branch names or fallback to remote HEAD
 function git_main_branch() {
   command git rev-parse --git-dir &>/dev/null || return
-  local ref
+  
+  local remote ref
+  
   for ref in refs/{heads,remotes/{origin,upstream}}/{main,trunk,mainline,default,stable,master}; do
     if command git show-ref -q --verify $ref; then
       echo ${ref:t}
       return 0
+    fi
+  done
+  
+  # Fallback: try to get the default branch from remote HEAD symbolic refs
+  for remote in origin upstream; do
+    ref=$(command git rev-parse --abbrev-ref $remote/HEAD 2>/dev/null)
+    if [[ $ref == $remote/* ]]; then
+      echo ${ref#"$remote/"}; return 0
     fi
   done
 
@@ -86,7 +96,7 @@ function work_in_progress() {
 # Aliases
 # (sorted alphabetically by command)
 # (order should follow README)
-# (in some cases force the alisas order to match README, like for example gke and gk)
+# (in some cases force the alias order to match README, like for example gke and gk)
 #
 
 alias grt='cd "$(git rev-parse --show-toplevel || echo .)"'

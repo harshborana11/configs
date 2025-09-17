@@ -4,7 +4,7 @@
     background-transparent:         #1D2330A0;
     text-color:                     #BBBBBB;
     text-color-selected:            #FFFFFF;
-    primary:                        #c3c3c3;
+    primary:                        #c3c3c4;
     important:                      #BF616A;
 }
 
