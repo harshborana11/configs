@@ -62,13 +62,6 @@ return {
 
 	{
 		"snacks.nvim",
-		opts = {
-			scroll = { enabled = false },
-			shell = { "/bin/zsh", "-l" },
-		},
-		keys = {
-			{ "<C-/>", false },
-		},
 	},
 	{
 		"akinsho/bufferline.nvim",
@@ -158,7 +151,12 @@ return {
 
 	{
 		"folke/snacks.nvim",
+		-- keys = {
+		--   { "<C-/>", false },
+		-- },
 		opts = {
+			scroll = { enabled = false },
+			shell = { "/bin/zsh", "-l" },
 			dashboard = {
 				preset = {
 					header = [[
