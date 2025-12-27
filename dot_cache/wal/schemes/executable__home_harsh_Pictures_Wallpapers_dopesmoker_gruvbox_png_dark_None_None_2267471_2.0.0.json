@@ -1,0 +1,28 @@
+{
+    "checksum": "604b78ffddd49f0baecdc515363ab08a",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/dopesmoker_gruvbox.png",
+    "alpha": "100",
+    "special": {
+        "background": "#22211f",
+        "foreground": "#c7c7c7",
+        "cursor": "#c7c7c7"
+    },
+    "colors": {
+        "color0": "#22211f",
+        "color1": "#C37C61",
+        "color2": "#67837D",
+        "color3": "#C5885E",
+        "color4": "#748E83",
+        "color5": "#90A18A",
+        "color6": "#B2B692",
+        "color7": "#c7c7c7",
+        "color8": "#796e63",
+        "color9": "#C37C61",
+        "color10": "#67837D",
+        "color11": "#C5885E",
+        "color12": "#748E83",
+        "color13": "#90A18A",
+        "color14": "#B2B692",
+        "color15": "#c7c7c7"
+    }
+}

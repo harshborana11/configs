@@ -1,0 +1,28 @@
+{
+    "checksum": "beeefecf2579d2a2edb68fb8c9f1ffbf",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/cozy cafe.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0c0b",
+        "foreground": "#c2c2c2",
+        "cursor": "#c2c2c2"
+    },
+    "colors": {
+        "color0": "#0d0c0b",
+        "color1": "#6A5C48",
+        "color2": "#976534",
+        "color3": "#91704E",
+        "color4": "#768A3D",
+        "color5": "#BC9B5F",
+        "color6": "#C4B090",
+        "color7": "#c2c2c2",
+        "color8": "#6a6a56",
+        "color9": "#6A5C48",
+        "color10": "#976534",
+        "color11": "#91704E",
+        "color12": "#768A3D",
+        "color13": "#BC9B5F",
+        "color14": "#C4B090",
+        "color15": "#c2c2c2"
+    }
+}

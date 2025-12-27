@@ -1,0 +1,28 @@
+{
+    "checksum": "09c847abba5ea777b86dcb191161eaf2",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/images.transistor.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0907",
+        "foreground": "#c2c1c1",
+        "cursor": "#c2c1c1"
+    },
+    "colors": {
+        "color0": "#0E0907",
+        "color1": "#9E522A",
+        "color2": "#CD5D31",
+        "color3": "#955C4A",
+        "color4": "#4C9734",
+        "color5": "#C09255",
+        "color6": "#D3BCA0",
+        "color7": "#c2c1c1",
+        "color8": "#695d55",
+        "color9": "#9E522A",
+        "color10": "#CD5D31",
+        "color11": "#955C4A",
+        "color12": "#4C9734",
+        "color13": "#C09255",
+        "color14": "#D3BCA0",
+        "color15": "#c2c1c1"
+    }
+}

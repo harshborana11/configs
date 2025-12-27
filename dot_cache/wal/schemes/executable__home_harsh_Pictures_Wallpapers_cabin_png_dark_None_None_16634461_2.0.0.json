@@ -1,0 +1,28 @@
+{
+    "checksum": "0469a2eb0c280ab4d232e7c1420c51e4",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/cabin.png",
+    "alpha": "100",
+    "special": {
+        "background": "#122119",
+        "foreground": "#c3c7c5",
+        "cursor": "#c3c7c5"
+    },
+    "colors": {
+        "color0": "#122119",
+        "color1": "#53CD69",
+        "color2": "#682973",
+        "color3": "#94576E",
+        "color4": "#751C86",
+        "color5": "#996490",
+        "color6": "#7AC789",
+        "color7": "#c3c7c5",
+        "color8": "#5e7368",
+        "color9": "#53CD69",
+        "color10": "#682973",
+        "color11": "#94576E",
+        "color12": "#751C86",
+        "color13": "#996490",
+        "color14": "#7AC789",
+        "color15": "#c3c7c5"
+    }
+}

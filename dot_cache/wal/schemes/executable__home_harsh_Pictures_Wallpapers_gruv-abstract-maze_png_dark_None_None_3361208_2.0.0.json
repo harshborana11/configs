@@ -1,0 +1,28 @@
+{
+    "checksum": "c55179973470494da0f2f2717994bb55",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/gruv-abstract-maze.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121213",
+        "foreground": "#c3c3c4",
+        "cursor": "#c3c3c4"
+    },
+    "colors": {
+        "color0": "#121213",
+        "color1": "#989A8A",
+        "color2": "#9FA18D",
+        "color3": "#AEAF97",
+        "color4": "#BBBEA2",
+        "color5": "#C4C39B",
+        "color6": "#C1C09E",
+        "color7": "#c3c3c4",
+        "color8": "#5a5a6e",
+        "color9": "#989A8A",
+        "color10": "#9FA18D",
+        "color11": "#AEAF97",
+        "color12": "#BBBEA2",
+        "color13": "#C4C39B",
+        "color14": "#C1C09E",
+        "color15": "#c3c3c4"
+    }
+}

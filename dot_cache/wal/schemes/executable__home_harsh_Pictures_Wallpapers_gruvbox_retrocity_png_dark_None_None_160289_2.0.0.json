@@ -1,0 +1,28 @@
+{
+    "checksum": "b2d9864018b789c593d3c5f722281672",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/gruvbox_retrocity.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1e1e",
+        "foreground": "#c7c6c6",
+        "cursor": "#c7c6c6"
+    },
+    "colors": {
+        "color0": "#1f1e1e",
+        "color1": "#CF9831",
+        "color2": "#9D8F7C",
+        "color3": "#AA9262",
+        "color4": "#8EBF7D",
+        "color5": "#428487",
+        "color6": "#458588",
+        "color7": "#c7c6c6",
+        "color8": "#776161",
+        "color9": "#CF9831",
+        "color10": "#9D8F7C",
+        "color11": "#AA9262",
+        "color12": "#8EBF7D",
+        "color13": "#428487",
+        "color14": "#458588",
+        "color15": "#c7c6c6"
+    }
+}
