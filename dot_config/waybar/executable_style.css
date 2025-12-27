@@ -70,8 +70,9 @@ tooltip {
 }
 
 #tray {
-  border-radius: 20px;
+  /* border-radius: 20px; */
   margin-right: 5px;
+
 }
 
 #workspaces {

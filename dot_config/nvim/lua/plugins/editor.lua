@@ -13,6 +13,9 @@ return {
 		},
 	},
 	{
+		"ahmedkhalf/project.nvim",
+	},
+	{
 		"vyfor/cord.nvim",
 		build = ":Cord update",
 		-- opts = {}

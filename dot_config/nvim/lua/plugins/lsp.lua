@@ -12,6 +12,8 @@ return {
 				"tailwindcss-language-server",
 				"typescript-language-server",
 				"css-lsp",
+				"clang-format", -- for formatting C/C++
+				"clangd", -- for C/C++ LSP
 			})
 		end,
 	},
@@ -126,19 +128,21 @@ return {
 	},
 	{
 		"neovim/nvim-lspconfig",
-		opts = function()
-			local keys = require("lazyvim.plugins.lsp.keymaps").get()
-			vim.list_extend(keys, {
-				{
-					"gd",
-					function()
-						-- DO NOT RESUSE WINDOW
-						require("telescope.builtin").lsp_definitions({ reuse_win = false })
-					end,
-					desc = "Goto Definition",
-					has = "definition",
+		opts = {
+			servers = {
+				["*"] = {
+					keys = {
+						{
+							"gd",
+							function()
+								require("telescope.builtin").lsp_definitions({ reuse_win = false })
+							end,
+							desc = "Goto Definition",
+							has = "definition",
+						},
+					},
 				},
-			})
-		end,
+			},
+		},
 	},
 }

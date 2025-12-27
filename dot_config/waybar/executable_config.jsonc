@@ -56,7 +56,7 @@
     "spacing": 10,
   },
   "clock": {
-    "format": " {:%T} ",
+    "format": " {:%T}",
     "interval": 1,
     "format-alt": " {:%A, %B %d, %Y, %T}  ",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
@@ -132,30 +132,30 @@
   //   "format-critical": "  {temperatureC}°C",
   //   "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'",
   // },
-  "battery": {
-    "states": {
-      "good": 95,
-      "warning": 30,
-      "critical": 20,
-    },
-    "format": "{icon} {capacity}%",
-    "format-charging": "  {capacity}%",
-    "format-plugged": "  {capacity}%",
-    "format-alt": "{time} {icon}",
-    "format-icons": [
-      " 󰂎 ",
-      " 󰁺 ",
-      " 󰁻 ",
-      " 󰁼 ",
-      " 󰁽 ",
-      " 󰁾 ",
-      " 󰁿 ",
-      " 󰂀 ",
-      " 󰂁 ",
-      " 󰂂 ",
-      " 󰁹 "
-    ],
-  },
+  // "battery": {
+  //   "states": {
+  //     "good": 95,
+  //     "warning": 30,
+  //     "critical": 20,
+  //   },
+  //   "format": "{icon} {capacity}%",
+  //   "format-charging": "  {capacity}%",
+  //   "format-plugged": "  {capacity}%",
+  //   "format-alt": "{time} {icon}",
+  //   "format-icons": [
+  //     " 󰂎 ",
+  //     " 󰁺 ",
+  //     " 󰁻 ",
+  //     " 󰁼 ",
+  //     " 󰁽 ",
+  //     " 󰁾 ",
+  //     " 󰁿 ",
+  //     " 󰂀 ",
+  //     " 󰂁 ",
+  //     " 󰂂 ",
+  //     " 󰁹 "
+  //   ],
+  // },
   // "pulseaudio#output": {
   //   "format": "{icon} {volume}%",
   //   "format-muted": "  muted ",
@@ -249,18 +249,18 @@
     "on-scroll-down": "~/.config/waybar/scripts/brightness --dec",
     "min-length": 6,
   },
-  "custom/hyprpicker": {
-    "format": " 󰈋 ",
-    "on-click": "hyprpicker -a -f hex",
-    "on-click-right": "hyprpicker -a -f rgb",
-  },
-  "custom/launcher": {
-    "format": "",
-    "on-click": "bash $HOME/.config/rofi/launchers/launcher.sh",
-    //    "on-click": "wofi --show drun -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css",
-    "on-click-right": "bash $HOME/.config/rofi/run.sh",
-    //    "on-click-right": "wofi --show run -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css"
-  },
+  // "custom/hyprpicker": {
+  //   "format": " 󰈋 ",
+  //   "on-click": "hyprpicker -a -f hex",
+  //   "on-click-right": "hyprpicker -a -f rgb",
+  // },
+  // "custom/launcher": {
+  //   "format": "",
+  //   "on-click": "bash $HOME/.config/rofi/launchers/launcher.sh",
+  //   //    "on-click": "wofi --show drun -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css",
+  //   "on-click-right": "bash $HOME/.config/rofi/run.sh",
+  //   //    "on-click-right": "wofi --show run -I -a -n -W 500 -H 376 -s ~/.config/wofi/themes/gruvbox.css"
+  // },
   "custom/notification": {
     "tooltip": false,
     "format": "{icon}",

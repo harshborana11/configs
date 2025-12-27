@@ -55,6 +55,8 @@ keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
 
+keymap.set("i", "jk", "<Esc>")
+
 -- Diagnostics
 keymap.set("n", "<C-S-j>", function()
 	vim.diagnostic.goto_next()

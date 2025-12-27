@@ -14,7 +14,6 @@ alias mkdir='mkdir -p'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-pfetch
 # bun completions
 [ -s "/home/harsh/.bun/_bun" ] && source "/home/harsh/.bun/_bun"
 
