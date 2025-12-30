@@ -66,9 +66,7 @@
         },
         {
           "label": "󰖩",
-          "on-click": "",
-          // "on-click": "[ \"$(nmcli -t -f WIFI g)\" = \"enabled\" ] && nmcli radio wifi off || nmcli radio wifi on",
-          // "class": "[ \"$(nmcli -t -f WIFI g)\" = \"enabled\" ] && echo wifi-on || echo wifi-off"
+          "command": "$HOME/.local/bin/shved/rofi-menus/wifi-menu.sh"
         }
       ]
     }

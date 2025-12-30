@@ -89,6 +89,7 @@
        ;;grammar           ; tasing grammar mistake every you make
 
        :tools
+       (lsp +peek)
        ;;ansible
        ;;biblio            ; Writes a PhD for you (citation needed)
        ;;collab            ; buffers with friends
@@ -115,6 +116,7 @@
        ;;tty               ; improve the terminal Emacs experience
 
        :lang
+       (qml +lsp)
        ;;ada               ; In strong typing we (blindly) trust
        ;;agda              ; types of types of types of types...
        ;;beancount         ; mind the GAAP

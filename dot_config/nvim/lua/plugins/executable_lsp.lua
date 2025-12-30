@@ -14,6 +14,7 @@ return {
 				"css-lsp",
 				"clang-format", -- for formatting C/C++
 				"clangd", -- for C/C++ LSP
+				"qmlls",
 			})
 		end,
 	},
@@ -125,6 +126,20 @@ return {
 			},
 			setup = {},
 		},
+	},
+	{
+		"neovim/nvim-lspconfig",
+		event = { "BufReadPre", "BufNewFile" },
+		config = function()
+			local lspconfig = require("lspconfig")
+			local util = lspconfig.util
+
+			lspconfig.qmlls.setup({
+				cmd = { "qmlls" }, -- or full path
+				filetypes = { "qml" },
+				root_dir = util.root_pattern("CMakeLists.txt", ".git"),
+			})
+		end,
 	},
 	{
 		"neovim/nvim-lspconfig",
