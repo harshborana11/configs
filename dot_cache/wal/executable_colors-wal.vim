@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/harsh/Pictures/Wallpapers/gruvbox_room.png"
+let background = "#101213"
+let foreground = "#c3c3c4"
+let cursor     = "#c3c3c4"
+
+" Colors
+let color0  = "#101213"
+let color1  = "#676D64"
+let color2  = "#86786C"
+let color3  = "#63827D"
+let color4  = "#958977"
+let color5  = "#3C8186"
+let color6  = "#568D8B"
+let color7  = "#c3c3c4"
+let color8  = "#59636e"
+let color9  = "#676D64"
+let color10 = "#86786C"
+let color11 = "#63827D"
+let color12 = "#958977"
+let color13 = "#3C8186"
+let color14 = "#568D8B"
+let color15 = "#c3c3c4"

@@ -1,0 +1,28 @@
+{
+    "checksum": "aa8e4cc3a12c4b83aa248d3c71d93b89",
+    "wallpaper": "/home/harsh/Downloads/wall/gruv-material.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0f10",
+        "foreground": "#c3c3c3",
+        "cursor": "#c3c3c3"
+    },
+    "colors": {
+        "color0": "#0f0f10",
+        "color1": "#69847C",
+        "color2": "#868B7A",
+        "color3": "#759C92",
+        "color4": "#7DAEA3",
+        "color5": "#A3AA92",
+        "color6": "#81B5AA",
+        "color7": "#c3c3c3",
+        "color8": "#6c5959",
+        "color9": "#69847C",
+        "color10": "#868B7A",
+        "color11": "#759C92",
+        "color12": "#7DAEA3",
+        "color13": "#A3AA92",
+        "color14": "#81B5AA",
+        "color15": "#c3c3c3"
+    }
+}

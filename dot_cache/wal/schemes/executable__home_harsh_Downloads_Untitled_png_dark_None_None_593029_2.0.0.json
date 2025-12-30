@@ -1,0 +1,28 @@
+{
+    "checksum": "b944e704cad690b8e144d18b3ac423a4",
+    "wallpaper": "/home/harsh/Downloads/Untitled.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c0f",
+        "foreground": "#c1c2c3",
+        "cursor": "#c1c2c3"
+    },
+    "colors": {
+        "color0": "#0a0c0f",
+        "color1": "#979A88",
+        "color2": "#86A597",
+        "color3": "#B5AB92",
+        "color4": "#C5B699",
+        "color5": "#BFC0A5",
+        "color6": "#DED2AE",
+        "color7": "#c1c2c3",
+        "color8": "#57606a",
+        "color9": "#979A88",
+        "color10": "#86A597",
+        "color11": "#B5AB92",
+        "color12": "#C5B699",
+        "color13": "#BFC0A5",
+        "color14": "#DED2AE",
+        "color15": "#c1c2c3"
+    }
+}

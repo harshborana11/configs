@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/alien_planet.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#020205",
+        "foreground": "#f3ecc6",
+        "cursor": "#f3ecc6"
+    },
+    "colors": {
+        "color0": "#020205",
+        "color1": "#F3E362",
+        "color2": "#367489",
+        "color3": "#C1559F",
+        "color4": "#F7569C",
+        "color5": "#5BA0A3",
+        "color6": "#3DC0BA",
+        "color7": "#f3ecc6",
+        "color8": "#aaa58a",
+        "color9": "#F3E362",
+        "color10": "#367489",
+        "color11": "#C1559F",
+        "color12": "#F7569C",
+        "color13": "#5BA0A3",
+        "color14": "#3DC0BA",
+        "color15": "#f3ecc6"
+    }
+}

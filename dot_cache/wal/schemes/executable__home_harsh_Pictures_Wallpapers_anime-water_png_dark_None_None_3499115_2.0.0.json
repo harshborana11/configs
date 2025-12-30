@@ -1,0 +1,28 @@
+{
+    "checksum": "d9cd2a9ea984f12898246ac39d2231a9",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/anime-water.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c090e",
+        "foreground": "#c2c1c2",
+        "cursor": "#c2c1c2"
+    },
+    "colors": {
+        "color0": "#0c090e",
+        "color1": "#4C385C",
+        "color2": "#324568",
+        "color3": "#585053",
+        "color4": "#56496F",
+        "color5": "#665079",
+        "color6": "#AC857A",
+        "color7": "#c2c1c2",
+        "color8": "#63566a",
+        "color9": "#4C385C",
+        "color10": "#324568",
+        "color11": "#585053",
+        "color12": "#56496F",
+        "color13": "#665079",
+        "color14": "#AC857A",
+        "color15": "#c2c1c2"
+    }
+}

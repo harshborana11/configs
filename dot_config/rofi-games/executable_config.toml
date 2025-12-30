@@ -1,0 +1,44 @@
+ [[entries]]
+ title = "Hyper Light Drifter"
+ launch_command = "/home/harsh/GOG\\ Games/Hyper\\ Light\\ Drifter/start.sh"
+ path_box_art = "/home/harsh/GOG Games/Hyper Light Drifter/support/icon.png"
+ path_game_dir= "/home/harsh/GOG Games/Hyper Light Drifter/"
+
+ [[entries]]
+ title = "Celeste"
+ launch_command = " /home/harsh/GOG\\ Games/Celeste/Celeste.bin.x86_64"
+ path_box_art = "/home/harsh/GOG Games/Celeste/Celeste.png"
+ path_game_dir = "/home/harsh/GOG Games/Celeste/"
+
+ [[entries]]
+ title = "Don't starve"
+ launch_command = "/home/harsh/GOG\\ Games/Dont\\ Starve/start.sh"
+ path_box_art = "/home/harsh/GOG Games/Dont Starve/support/icon.png"
+ path_game_dir= "/home/harsh/GOG Games/Dont Starve/"
+
+
+ [[entries]]
+ title = "Hollow Knight"
+ launch_command = "/home/harsh/GOG\\ Games/Hollow\\ Knight/start.sh"
+ path_box_art = "/home/harsh/GOG Games/Hollow Knight/support/icon.png"
+ path_game_dir= "/home/harsh/GOG Games/Hollow Knight/"
+
+ [[entries]]
+ title = "Moonlighter"
+ launch_command = "/home/harsh/GOG\\ Games/Moonlighter/start.sh "
+ path_box_art = "/home/harsh/GOG Games/Moonlighter/support/icon.png"
+ path_game_dir= "/home/harsh/GOG Games/Moonlighter/"
+
+ [[entries]]
+ title = "Moonstone Island"
+ launch_command = "/home/harsh/GOG\\ Games/Moonstone\\ Island/start.sh"
+ path_box_art = "/home/harsh/GOG Games/Moonstone Island/game/icon.png"
+ path_game_dir= "/home/harsh/GOG Games/Moonstone Island/"
+
+
+ [[entries]]
+ title = "The Darkside Detective"
+ launch_command = "/home/harsh/GOG\\ Games/The\\ Darkside\\ Detective/start.sh"
+ path_box_art = "/home/harsh/GOG Games/The Darkside Detective/support/icon.png"
+ path_game_dir= "/home/harsh/GOG Games/The Darkside Detective//"
+

@@ -1,0 +1,28 @@
+{
+    "checksum": "0bfbe128a9dc424ac9bac1237de00395",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/Groot.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050910",
+        "foreground": "#c0c1c3",
+        "cursor": "#c0c1c3"
+    },
+    "colors": {
+        "color0": "#050910",
+        "color1": "#294F60",
+        "color2": "#5C625F",
+        "color3": "#7A8479",
+        "color4": "#176593",
+        "color5": "#51748E",
+        "color6": "#28A0C2",
+        "color7": "#c0c1c3",
+        "color8": "#555e69",
+        "color9": "#294F60",
+        "color10": "#5C625F",
+        "color11": "#7A8479",
+        "color12": "#176593",
+        "color13": "#51748E",
+        "color14": "#28A0C2",
+        "color15": "#c0c1c3"
+    }
+}

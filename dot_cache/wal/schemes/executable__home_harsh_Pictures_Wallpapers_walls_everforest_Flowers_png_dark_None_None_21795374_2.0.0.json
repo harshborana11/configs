@@ -1,0 +1,28 @@
+{
+    "checksum": "064d5e46cbfaa8b36e7ec13375573f3f",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/walls/everforest/Flowers.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a1116",
+        "foreground": "#c1c3c4",
+        "cursor": "#c1c3c4"
+    },
+    "colors": {
+        "color0": "#0a1116",
+        "color1": "#906F65",
+        "color2": "#7B8479",
+        "color3": "#8C877A",
+        "color4": "#D28B77",
+        "color5": "#A39E90",
+        "color6": "#C8B8A5",
+        "color7": "#c1c3c4",
+        "color8": "#59656c",
+        "color9": "#906F65",
+        "color10": "#7B8479",
+        "color11": "#8C877A",
+        "color12": "#D28B77",
+        "color13": "#A39E90",
+        "color14": "#C8B8A5",
+        "color15": "#c1c3c4"
+    }
+}

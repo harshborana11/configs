@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/falltree.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d0d",
+        "foreground": "#e2e5ea",
+        "cursor": "#e2e5ea"
+    },
+    "colors": {
+        "color0": "#0d0d0d",
+        "color1": "#B95D83",
+        "color2": "#DD5E93",
+        "color3": "#EA5C99",
+        "color4": "#F16DA6",
+        "color5": "#6B8F91",
+        "color6": "#E299BD",
+        "color7": "#e2e5ea",
+        "color8": "#9ea0a3",
+        "color9": "#B95D83",
+        "color10": "#DD5E93",
+        "color11": "#EA5C99",
+        "color12": "#F16DA6",
+        "color13": "#6B8F91",
+        "color14": "#E299BD",
+        "color15": "#e2e5ea"
+    }
+}

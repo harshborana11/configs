@@ -1,0 +1,28 @@
+{
+    "checksum": "32b4494867c1b06077a1544f4be19d9a",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/gruvbox_forest-4.png",
+    "alpha": "100",
+    "special": {
+        "background": "#fefefe",
+        "foreground": "#3f3f3f",
+        "cursor": "#3f3f3f"
+    },
+    "colors": {
+        "color0": "#fefefe",
+        "color1": "#95662D",
+        "color2": "#897565",
+        "color3": "#7E8376",
+        "color4": "#A9822C",
+        "color5": "#978877",
+        "color6": "#B3A38C",
+        "color7": "#3f3f3f",
+        "color8": "#bebebe",
+        "color9": "#95662D",
+        "color10": "#897565",
+        "color11": "#7E8376",
+        "color12": "#A9822C",
+        "color13": "#978877",
+        "color14": "#B3A38C",
+        "color15": "#3f3f3f"
+    }
+}

@@ -1,0 +1,21 @@
+set $wallpaper /home/harsh/Pictures/Wallpapers/gruvbox_room.png
+
+set $background #101213
+set $foreground #c3c3c4
+
+set $color0 #101213
+set $color1 #676D64
+set $color2 #86786C
+set $color3 #63827D
+set $color4 #958977
+set $color5 #3C8186
+set $color6 #568D8B
+set $color7 #c3c3c4
+set $color8 #59636e
+set $color9 #676D64
+set $color10 #86786C
+set $color11 #63827D
+set $color12 #958977
+set $color13 #3C8186
+set $color14 #568D8B
+set $color15 #c3c3c4

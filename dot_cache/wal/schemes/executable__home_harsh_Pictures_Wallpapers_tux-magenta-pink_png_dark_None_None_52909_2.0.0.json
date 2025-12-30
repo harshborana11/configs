@@ -1,0 +1,28 @@
+{
+    "checksum": "fb9c3a6360e11dd8853b93dda4b1d362",
+    "wallpaper": "/home/harsh/Pictures/Wallpapers/tux-magenta-pink.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0E1B",
+        "foreground": "#c3c2c6",
+        "cursor": "#c3c2c6"
+    },
+    "colors": {
+        "color0": "#0F0E1B",
+        "color1": "#9B91AA",
+        "color2": "#B6ABC6",
+        "color3": "#CEA2D7",
+        "color4": "#D5ACE6",
+        "color5": "#E6AEE3",
+        "color6": "#E8AEE2",
+        "color7": "#c3c2c6",
+        "color8": "#5e5b70",
+        "color9": "#9B91AA",
+        "color10": "#B6ABC6",
+        "color11": "#CEA2D7",
+        "color12": "#D5ACE6",
+        "color13": "#E6AEE3",
+        "color14": "#E8AEE2",
+        "color15": "#c3c2c6"
+    }
+}
