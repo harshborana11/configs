@@ -14,7 +14,7 @@ Rectangle {
     Text {
         id: clockText
         text: `${Utils.Datetime.time}`
-        color: Colors.color6
+        color: Colors.accentActive
         font.pixelSize: 18
         anchors {
             horizontalCenter: parent.horizontalCenter

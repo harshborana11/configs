@@ -11,7 +11,7 @@ Rectangle {
     anchors {
         left: parent.left
         verticalCenter: parent.verticalCenter
-        margins: 2
+        margins: 48
     }
     Row {
         anchors.centerIn: parent

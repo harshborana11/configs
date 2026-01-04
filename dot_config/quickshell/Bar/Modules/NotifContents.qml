@@ -19,7 +19,6 @@ Rectangle {
         anchors.margins: Theme.bar_side_margin
 
         spacing: 5
-
         RowLayout {
             Layout.fillWidth: true
             height: Theme.notif_title_height + Theme.notif_txt_margin
@@ -32,7 +31,7 @@ Rectangle {
                 Layout.fillWidth: true
                 height: parent.height
 
-                color: Theme.bar_widget_bg
+                color: Colors.bg2
 
                 radius: Theme.bar_widget_rounding
 
@@ -54,10 +53,10 @@ Rectangle {
                         color: Colors.foreground
 
                         font: ({
-                            family: Theme.font_family,
-                            pixelSize: Theme.notif_head_font_size,
-                            bold: true,
-                        })
+                                family: Theme.font_family,
+                                pixelSize: Theme.notif_head_font_size,
+                                bold: true
+                            })
                     }
                 }
             }
@@ -77,10 +76,10 @@ Rectangle {
 
                     text: ""
 
-                    Component.onCompleted: function() {
+                    Component.onCompleted: function () {
                         if (notification.urgency == 2) {
-                            this.text = ""
-                            close_button.color = Theme.color_urgent
+                            this.text = "";
+                            close_button.color = Colors.color2;
                         }
                     }
 
@@ -89,17 +88,17 @@ Rectangle {
                     color: Colors.background
 
                     font: ({
-                        family: Theme.font_family,
-                        pixelSize: close_button.height - 12,
-                        bold: true,
-                    })
+                            family: Theme.font_family,
+                            pixelSize: close_button.height - 12,
+                            bold: true
+                        })
                 }
 
                 MouseArea {
                     anchors.fill: parent
 
-                    onPressed: function() {
-                        notification.dismiss()
+                    onPressed: function () {
+                        notification.dismiss();
                     }
                 }
             }
@@ -132,12 +131,12 @@ Rectangle {
                     wrapMode: Text.Wrap
 
                     font: ({
-                        family: Theme.font_family,
-                        pixelSize: Theme.notif_body_font_size,
-                        bold: true,
-                    })
+                            family: Theme.font_family,
+                            pixelSize: Theme.notif_body_font_size,
+                            bold: true
+                        })
                 }
-            }
+                }
         }
     }
 }

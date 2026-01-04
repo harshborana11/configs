@@ -26,10 +26,10 @@ Singleton {
     property string font_family: "JetBrainsMono Nerd Font Propo"
 
     property font bar_font: ({
-        family: root.font_family,
-        pixelSize: 15,
-        bold: true,
-    })
+            family: root.font_family,
+            pixelSize: 15,
+            bold: true
+        })
 
     property int bar_side_margin: 12 // Left/Right
 
@@ -42,7 +42,7 @@ Singleton {
 
     property int bar_widget_spacing: 10
 
-    property int bar_widget_rounding: 30
+    property int bar_widget_rounding: 20
 
     property int bar_widget_widget_rounding: 2
 
@@ -63,18 +63,18 @@ Singleton {
 
     property int slider_prefix_width: 25
 
-    property int notif_margin: 10
+    property int notif_margin: 5
 
     property alias notif_gap: root.bar_top_bottom_gap
 
-    property int notif_width: 350
-    property int notif_height: 140
+    property int notif_width: 280
+    property int notif_height: 120
 
-    property int notif_title_height: 30
+    property int notif_title_height: 24
 
-    property int notif_head_font_size: 20
+    property int notif_head_font_size: 16
 
-    property int notif_body_font_size: 15
+    property int notif_body_font_size: 12
 
     property int notif_txt_margin: 5
 

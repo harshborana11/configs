@@ -9,19 +9,17 @@ Rectangle {
     color: Colors.background
     required property var panelWindow
     implicitHeight: 38
-    implicitWidth: 40*3
+    implicitWidth: (systray.children.length < 4 ? 40 : 60) * (systray.children.length - 2)
     radius: 100
     anchors {
-        right : parent.right
+        right: parent.right
         verticalCenter: parent.verticalCenter
-        margins: 130
+        margins: 118
     }
     Layout.fillWidth: true
     RowLayout {
         id: systray
-
         spacing: 5
-
         anchors.fill: parent
         anchors.margins: 10
 
@@ -38,7 +36,6 @@ Rectangle {
 
                 Image {
                     source: modelData.icon
-
                     anchors.fill: parent
                     MouseArea {
                         anchors.fill: parent
@@ -51,7 +48,7 @@ Rectangle {
                             } else if (mouse.button == Qt.MiddleButton) {
                                 modelData.secondaryActivate();
                             } else if (mouse.button == Qt.RightButton) {
-                                modelData.display(root.panelWindow, root.parent.width -100 , 50);
+                                modelData.display(root.panelWindow, root.parent.width - 100, 50);
                             }
                         }
                     }

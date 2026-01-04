@@ -6,7 +6,6 @@ import "../../"
 Rectangle {
     id: root
     required property string icon
-
     required property bool is_active
 
     required property var toggle
@@ -14,8 +13,8 @@ Rectangle {
     readonly property string color_off: Colors.background
     readonly property string color_on: Colors.foreground
 
-    readonly property string color_bg:  Colors.background
-    readonly property string color_fg:  Colors.foreground
+    readonly property string color_bg: Colors.background
+    readonly property string color_fg: Colors.foreground
 
     width: 38
     height: 38
@@ -29,16 +28,18 @@ Rectangle {
 
         color: root.color_fg
         font: ({
-            family: root.font_family,
-            pixelSize: 15,
-            bold: true,
-        })
+                family: root.font_family,
+                pixelSize: 15,
+                bold: true
+            })
         anchors.centerIn: parent
     }
 
     MouseArea {
         id: mouse_area
         anchors.fill: root
-        onPressed: function() { root.toggle(root.is_active) }
+        onPressed: function () {
+            root.toggle(root.is_active);
+        }
     }
 }
