@@ -24,9 +24,9 @@ PanelWindow {
     screen: modelData
 
     Modules.DashboardToggle {
-      icon: Utils.DashboardState.show ? "󱋙" : ""
+        icon: Utils.DashboardState.show ? "󱋙" : ""
         is_active: Utils.DashboardState.show
-        color:  Colors.background
+        color: Colors.background
         toggle: function () {
             Utils.DashboardState.show = !Utils.DashboardState.show;
         }
@@ -38,10 +38,10 @@ PanelWindow {
     Modules.Workspaces {}
     Modules.Clock {}
     Modules.DashboardToggle {
-        icon: Utils.NotifServer.show_notifications ? "󰂚" : "󰂛"
-        is_active: Utils.NotifServer.show_notifications
+        icon: Utils.NotifServer.dnd ? "󰂚" : "󰂛"
+        is_active: Utils.NotifServer.dnd
         toggle: function () {
-            Utils.NotifServer.show_notifications = !Utils.NotifServer.show_notifications;
+            Utils.NotifServer.dnd = !Utils.NotifServer.dnd;
         }
         anchors {
             right: parent.right
@@ -51,11 +51,11 @@ PanelWindow {
     Modules.SystemTray {
         panelWindow: panel
     }
-    Modules.Notif {
+
+    Modules.NewNotif {
         anchor_window: panel
         screen: modelData
     }
-
     Modules.Dashboard {
         anchor_window: panel
         screen: modelData

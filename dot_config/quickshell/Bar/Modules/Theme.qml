@@ -67,14 +67,14 @@ Singleton {
 
     property alias notif_gap: root.bar_top_bottom_gap
 
-    property int notif_width: 280
-    property int notif_height: 120
+    property int notif_width: 250
+    property int notif_height: 90
 
-    property int notif_title_height: 24
+    property int notif_title_height: 15
 
-    property int notif_head_font_size: 16
+    property int notif_head_font_size: 13
 
-    property int notif_body_font_size: 12
+    property int notif_body_font_size: 10
 
     property int notif_txt_margin: 5
 

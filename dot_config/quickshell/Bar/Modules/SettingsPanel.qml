@@ -57,7 +57,7 @@ Rectangle {
                     Layout.fillWidth: true
 
                     use_prefix: true
-                    prefix: WindowManager.volume_speaker_icon
+                    prefix: WindowManager.is_speaker_muted ? "󰝟" : WindowManager.volume_speaker_icon
 
                     slider.value: WindowManager.volume_speaker
 
@@ -70,7 +70,7 @@ Rectangle {
                     id: mic_volume
                     Layout.fillWidth: true
                     use_prefix: true
-                    prefix: WindowManager.volume_mic_icon
+                    prefix: WindowManager.is_mic_muted ? "󰍭" : WindowManager.volume_mic_icon
                     slider.value: WindowManager.volume_mic
                     slider.onMoved: function () {
                         WindowManager.set_volume_mic(mic_volume.slider.value);
@@ -116,10 +116,10 @@ Rectangle {
             }
 
             DashboardToggle {
-                icon: Utils.NotifServer.show_notifications ? "󰂚" : "󰂛"
-                is_active: Utils.NotifServer.show_notifications
+                icon: Utils.NotifServer.dnd ? "󰂚" : "󰂛"
+                is_active: Utils.NotifServer.dnd
                 toggle: function () {
-                    Utils.NotifServer.show_notifications = !Utils.NotifServer.show_notifications;
+                    Utils.NotifServer.dnd = !Utils.NotifServer.dnd;
                 }
             }
         }

@@ -5,13 +5,10 @@ import "../../"
 
 Rectangle {
     id: root
-
     required property var notification
-
     anchors.fill: parent
-
-    color: Colors.background
-
+    color: Colors.bg1
+    border.color: Colors.foreground
     radius: Theme.bar_rounding
 
     ColumnLayout {
@@ -22,12 +19,9 @@ Rectangle {
         RowLayout {
             Layout.fillWidth: true
             height: Theme.notif_title_height + Theme.notif_txt_margin
-
             spacing: 5
-
             Rectangle {
                 id: head
-
                 Layout.fillWidth: true
                 height: parent.height
 
@@ -136,7 +130,7 @@ Rectangle {
                             bold: true
                         })
                 }
-                }
+            }
         }
     }
 }
