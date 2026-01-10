@@ -8,11 +8,6 @@ import Quickshell.Io
 import Quickshell.Services.Mpris
 
 Rectangle {
-    anchors {
-        top: parent.top
-        margins: 30
-        horizontalCenter: parent.horizontalCenter
-    }
     color: Colors.background
     border {
         color: Colors.foreground

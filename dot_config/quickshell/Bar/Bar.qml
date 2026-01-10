@@ -26,7 +26,7 @@ PanelWindow {
     Modules.DashboardToggle {
         icon: Utils.DashboardState.show ? "󱋙" : ""
         is_active: Utils.DashboardState.show
-        color: Colors.background
+        color: Modules.Theme.bar_bg
         toggle: function () {
             Utils.DashboardState.show = !Utils.DashboardState.show;
         }

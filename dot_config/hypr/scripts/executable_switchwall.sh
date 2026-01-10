@@ -19,9 +19,9 @@ else
     exit 0
   fi
 
-  # swww img "$imgpath" --transition-step 100 --transition-fps 60 \
-  #   --transition-type grow --transition-angle 30 --transition-duration 1 \
-  #   --transition-pos "$cursorposx, $cursorposy_inverted"
+  swww img "$imgpath" --transition-step 100 --transition-fps 60 \
+    --transition-type grow --transition-angle 30 --transition-duration 1 \
+    --transition-pos "$cursorposx, $cursorposy_inverted"
   # sed -i "s|background-image: *url(".*", width);|background-image: url(\"$imgpath\", width);|" /home/harsh/.config/rofi/applets/type-4/style-1.rasi
 
   wal -i ${imgpath}

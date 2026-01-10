@@ -2,17 +2,13 @@ pragma Singleton
 
 import QtQuick
 import Quickshell
+import "root:/"
 
 Singleton {
     id: root
 
-    property bool full_ui: true
-    property bool floating_feel: true
-
-    property string wallpaper: "girl_lightish.png"
-
-    property string bar_bg: "#282828"
-    property string bar_fg: "#d3cec0"
+    property string bar_bg: Colors.background
+    property string bar_fg: Colros.foreground
 
     property string bar_widget_bg: "#383838"
     property string bar_widget_hovered_bg: "#484848"

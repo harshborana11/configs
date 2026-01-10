@@ -1,7 +1,10 @@
 import QtQuick
+import QtQuick.Controls
 import QtQuick.Layouts
 import Quickshell
+import Quickshell.Services.Mpris
 import Quickshell.Hyprland
+import Quickshell.Io
 import "../../Utils" as Utils
 import "root:/"
 
@@ -49,9 +52,39 @@ Item {
                 color: Colors.background
                 implicitHeight: parent.height
                 implicitWidth: 330
-                SettingsPanel {}
+                SettingsPanel {
+                    id:settings
+                    anchors {
+                        margins: 22
+                        horizontalCenter: parent.horizontalCenter
+                        top:junimos.bottom
+                    }
+                }
                 Rectangle {
-                    implicitHeight: 170
+                    id:junimos
+                    implicitHeight: 75
+                    implicitWidth: 310
+                    color: Colors.accentActive
+                    border {
+                        color: Colors.foreground
+                        width: 2
+                    }
+                    radius: 20
+                    anchors {
+                        horizontalCenter: parent.horizontalCenter
+                        top: parent.top
+                        margins: 30
+                    }
+                         AnimatedImage {
+                             id: myImage
+                             source: "root:/assets/junimos.gif"
+                             fillMode: Image.PreserveAspectFit
+                             anchors.fill: parent
+                         }
+                }
+
+                Rectangle {
+                    implicitHeight: 80
                     implicitWidth: 310
                     color: Colors.background
                     border {
@@ -61,18 +94,47 @@ Item {
                     radius: 20
                     anchors {
                         horizontalCenter: parent.horizontalCenter
-                        top: parent.top
-                        margins: 230
+                        top: settings.bottom
+                        margins: 21
                     }
-                    Text {
-                        text: "media player to be added"
-                        color: Colors.foreground
-                        anchors {
-                            centerIn: parent
+
+                    Rectangle{
+                        implicitHeight: 75
+                        implicitWidth: 300
+                        anchors.centerIn:parent
+                        color:"transparent"
+                    RowLayout {
+                        anchors.fill: parent
+                        spacing: Theme.dashboard_margin
+
+                        Rectangle {
+                            color: Colors.bg0
+                            radius: 20
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+
+                            ScrollView {
+                                anchors.fill: parent
+                                anchors.margins: Theme.dashboard_margin
+                                clip: true
+
+                                ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
+                                ScrollBar.vertical.policy: ScrollBar.AsNeeded
+
+                                ColumnLayout {
+                                    width: parent.width
+                                    spacing: Theme.dashboard_margin
+
+                                    Repeater {
+                                        model: Mpris.players
+                                        delegate: DashboardMediaPlayer {}
+                                    }
+                                }
+                            }
+                        }
                         }
                     }
-                }
-            }
+                }            }
             Rectangle {
                 width: 280
                 implicitHeight: parent.height - 15
